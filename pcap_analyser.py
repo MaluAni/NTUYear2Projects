@@ -98,7 +98,7 @@ def payload_analyse(payload):
     return(analyzer)
 
     
-f = open('E:\\NTU\\YEAR2\\CYBERSEC\\Assessment\\CyberSecurity2022.pcap' , 'rb')
+f = open('CyberSecurity2022.pcap' , 'rb')
 #out = open('E:\\NTU\\YEAR2\\CYBERSEC\\Assessment\\CyberSecurity2022.txt', 'a+')
 #print(f.read(), file=out)
 #print(pcap_analyse(f))
@@ -106,8 +106,8 @@ f = open('E:\\NTU\\YEAR2\\CYBERSEC\\Assessment\\CyberSecurity2022.pcap' , 'rb')
 #print(payload_analyse(payload))
 #f.close()
 
-f = open('E:\\NTU\\YEAR2\\CYBERSEC\\Assessment\\CyberSecurity2022.pcap' , 'rb')
-out = open('E:\\NTU\\YEAR2\\CYBERSEC\\Assessment\\CyberSecurity2022analyseready.txt', 'a+')
+f = open('CyberSecurity2022.pcap' , 'rb')
+out = open('CyberSecurity2022analyseready.txt', 'a+')
 print(pcap_analyse(f), file=out)
 #print(pcap_analyse(f))
 f.close()
