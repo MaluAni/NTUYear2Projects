@@ -102,7 +102,7 @@ def payload_analyse(payload):
 print('Python pcap file analyser\n Enter a pcap file name and select from the options provided\n')
 file_name = input('Please enter the pcap file name:')    
 #f = open(file_name , 'rb')
-#out = open('E:\\NTU\\YEAR2\\CYBERSEC\\Assessment\\CyberSecurity2022.txt', 'a+')
+#out = open('CyberSecurity2022.txt', 'a+')
 #print(f.read(), file=out)
 #print(pcap_analyse(f))
 #payload = pcap_analyse(f)[11]
@@ -114,9 +114,9 @@ f = open(file_name , 'rb')
 #print('1. Header options\n 2. Payload options\n')
 #user_option_main = input('Select option:\n')
 #if user_option_main == '1':
-#    print('Endianness: ', pcap_analyse(f)[1], '\nMajor version: ', pcap_analyse(f)[4])
+#    print('Endianness: ', pcap_analyse(f)[1], '\nMajor version: ', pcap_analyse(f)[3])
 
-out = open('E:\\NTU\\YEAR2\\CYBERSEC\\Assessment\\CyberSecurity2022analyseready2.txt', 'a+')
+out = open('CyberSecurity2022analyseready2.txt', 'a+')
 print(pcap_analyse(f), file=out)
 f.close()
 
